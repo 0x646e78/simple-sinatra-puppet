@@ -44,13 +44,15 @@ TODO
 
 Given that this was an introduction to Puppet for me, the recipes are fairly hardcoded and could be a lot better.
 
-* I can see that moving into template teritory would be beneficial for example.  I could utilise more variables throughout.
+* I can see that moving into template territory would be beneficial. 
+* I could utilise more variables throughout.
 * parameterized classes are something I need to dig into
 * There is also a small amount of distribution checking, but is very much incomplete and will fail on non RHEL-based systems
 
 
-Extra hardening options which I _could_ deploy, of varying levels of usefulness and manageability
-----------------------------------------------------------------------------------------------------
+Extra hardening options which I _could_ deploy
+------------------------------------------------
+*_of varying levels of usefulness and manageability_*
 
 * ipv6 and associated iptables/config settings
 * apache mod_security
@@ -62,3 +64,7 @@ Extra hardening options which I _could_ deploy, of varying levels of usefulness 
 * chroot apache......
 
 
+A Special note
+---------------
+
+No, I don't use these RSA keys (or passwords!) anywhere else, they were generated specifically for this project.

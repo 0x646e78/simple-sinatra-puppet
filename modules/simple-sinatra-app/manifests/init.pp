@@ -5,7 +5,7 @@ class simple-sinatra-app {
 	  recurse	=> true,
 	  purge         => true,
 	  ignore	=> '.git*',
-	  mode		=> 0460,
+	  mode		=> 0660,
 	  owner		=> 'apache',
 	  group		=> 'root',
 	}

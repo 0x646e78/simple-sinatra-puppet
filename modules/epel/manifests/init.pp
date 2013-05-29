@@ -8,7 +8,7 @@ class epel {
 
 	yumrepo { 'epel':
 	  mirrorlist	=> 'https://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=$basearch',
-	  gpgkey	=> $epel_gpgkey,
+	  gpgkey	=> 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6',
 	  gpgcheck	=> 1,
 	  descr		=> 'Extra Packages for Enterprise Linux 6 - $basearch',
 	  enabled	=> 1,

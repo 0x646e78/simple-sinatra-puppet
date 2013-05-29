@@ -1,0 +1,3 @@
+[submodule "modules/simple-sinatra-app/files/simple-sinatra-app"]
+	path = modules/simple-sinatra-app/files/simple-sinatra-app
+	url = https://github.com/tnh/simple-sinatra-app.git

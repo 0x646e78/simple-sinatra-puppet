@@ -52,7 +52,7 @@ Given that this was an introduction to Puppet for me, the recipes are fairly har
 
 Extra hardening options which I _could_ deploy
 ------------------------------------------------
-**of varying levels of usefulness and manageability**
+**_Of varying levels of usefulness and manageability_**
 
 * ipv6 and associated iptables/config settings
 * apache mod_security

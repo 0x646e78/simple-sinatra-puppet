@@ -10,7 +10,7 @@ About
 Previous to receiving this task, I had gotten as far as installing Puppet inside one of my VM's and having a quick read through some docs.  I took this as a challenge to give myself a quick crash-course in Puppet.  The resulting recipes are based on a few hours research over a couple of evenings and a fair bit of trial and error.
 
 I have deployed this system under KVM using CentOS6.4 x86_64 minimal, via kickstart.  
-My kickstart file is included, which specifies the IP for host puppet in /etc/hosts.  This will need to be changed if you are to use this kickstart.  root password is set as  'passphrase'.
+My kickstart file is included, which specifies the IP for host 'puppet' in /etc/hosts.  This will need to be changed if you are to use this kickstart.  root password is set as  'passphrase'.
 
 The sinatra server hostname is set as 'gamma.centaurus', which is also specified in the apache vhost (via puppet).
 
